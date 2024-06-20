@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.18/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-800 text-white font-poppins">
+    <div id="game-container" class="max-w-xs mx-auto pt-10">
+        <!-- Gameboard display -->
+        <div id="board" class="grid grid-cols-3 gap-4">
+            <!-- Dynamic game cells will be inserted here -->
+        </div>
+        <!-- Game controls -->
+        <button id="restart-game" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+            Restart Game
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
